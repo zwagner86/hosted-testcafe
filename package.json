@@ -1,0 +1,24 @@
+{
+  "name": "hosted-testcafe",
+  "version": "1.0.0",
+  "description": "Sonar E2E Tests with TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwagner86/hosted-testcafe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwagner86/hosted-testcafe/issues"
+  },
+  "homepage": "https://github.com/zwagner86/hosted-testcafe#readme",
+  "dependencies": {
+    "testcafe": "1.6.0",
+    "testcafe-browser-provider-nightmare": "0.0.5",
+    "testcafe-reporter-slack": "0.0.6"
+  }
+}
