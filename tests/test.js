@@ -1,7 +1,8 @@
 import {Selector} from 'testcafe';
+import config from '../config';
 
-fixture('Alpha')
-    .page('https://alpha.rippleshot.com')
+fixture(config.testEnv)
+    .page(config.envUrls[config.testEnv])
 
 test('Has Sign In Header', async t => {
     await t
